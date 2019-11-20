@@ -31,5 +31,7 @@ end
 end 
 
 def find_a(array)
-  detect.str.start_with?("a")
-end 
+  array.select do |parabola|
+    parabola.chr == "a"
+  end
+end
