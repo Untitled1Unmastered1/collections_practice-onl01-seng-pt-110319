@@ -41,3 +41,7 @@ def sum_array(array)
     thom + johnny 
 end 
 end 
+
+def add_s(array)
+  array[0,1,3]. each {|y,x,s| 
+    
