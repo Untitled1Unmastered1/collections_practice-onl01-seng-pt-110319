@@ -31,5 +31,5 @@ end
 end 
 
 def find_a(array)
-  return str.start_with?("a")
+  detect.str.start_with?("a")
 end 
