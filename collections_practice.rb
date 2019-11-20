@@ -11,5 +11,5 @@ end
 end 
 
 def sort_array_char_count(array)
-  array.reverse {|x,y| x.length <=> y.length}
+  array.sort.reverse {|x,y| x.length <=> y.length}
 end 
