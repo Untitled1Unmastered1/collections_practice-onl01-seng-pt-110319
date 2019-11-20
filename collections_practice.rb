@@ -35,3 +35,5 @@ def find_a(array)
     parabola.chr == "a"
   end
 end
+
+
