@@ -43,11 +43,11 @@ end
 end 
 
 def add_s (array)
-  array.collect.with_index do |word, index|
-    if index == 1 
-      word 
+  array.collect.with_index do |w, i|
+    if i == 1 
+      w 
     else 
-      word + "s"
+      w + "s"
     end
   end
 end
