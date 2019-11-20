@@ -10,3 +10,8 @@ def sort_array_desc(array)
 end 
 end 
 
+def sort_array_char_count(array)
+  array.sort.length do |v,n|
+    v <=> n 
+end 
+end 
