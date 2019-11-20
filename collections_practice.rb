@@ -38,4 +38,6 @@ end
 
 def sum_array(array)
   array.inject do |thom,johnny|
+    thom + johnny 
+end 
 end 
