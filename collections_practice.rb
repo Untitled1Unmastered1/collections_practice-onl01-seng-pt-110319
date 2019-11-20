@@ -22,3 +22,6 @@ end
 def reverse_array(array)
   array[0..2].reverse 
 end 
+
+def kesha_maker(array)
+  array.each do |
